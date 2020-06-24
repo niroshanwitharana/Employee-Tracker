@@ -1,28 +1,27 @@
 {
   "name": "employee-tracker",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/niroshanwitharana/Employee-Tracker.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/niroshanwitharana/Employee-Tracker/issues"
-  },
-  "homepage": "https://github.com/niroshanwitharana/Employee-Tracker#readme",
+  "description": "A solution for managing a company's employees using node, inquirer, and MySQL",
+  "main": "server.js",
   "dependencies": {
+    "chalk": "^3.0.0",
+    "console.table": "^0.10.0",
     "inquirer": "^7.2.0",
     "mysql": "^2.18.1"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  }
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eric-gustafson1/employee-tracker.git"
+  },
+  "author": "Eric Gustafson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eric-gustafson1/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/eric-gustafson1/employee-tracker#readme"
 }
