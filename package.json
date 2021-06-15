@@ -7,9 +7,9 @@
     "chalk": "^3.0.0",
     "console.table": "^0.10.0",
     "inquirer": "^7.2.0",
+    "lodash": "^4.17.21",
     "mysql": "^2.18.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
